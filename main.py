@@ -23,4 +23,4 @@ if __name__ == "__main__":
             print(f"size: {len(content)} bytes")
             print(f"body: {content[:200]}")
     except urllib.error.HTTPError as e:
-        print(f"error: {e.code}")
+        print(f"Error: {e.code}")
